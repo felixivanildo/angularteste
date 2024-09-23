@@ -1,0 +1,19 @@
+.input-wrap{
+    color: #555;
+    font-size: 16px;
+    text-align: start;
+
+
+    input {
+        border-radius: 8px;
+        background-color: #EEE;
+        border: none;
+    
+       
+        padding: 12px 0px 12px 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+}

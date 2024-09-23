@@ -1,10 +1,28 @@
 <app-login-layout 
-    title="Login into your accont"
+    title="Login into your account"
     primaryBtnText="Login Now"
     secondaryBtnText="Signup Now"
 
 >
     <form [formGroup]="loginForm">
+        <app-generic-input
+            formControlName="email"
+            inputName="email"
+            type="email"
+            label="Email"
+            placeholder="Enter your email"
+        >
+        </app-generic-input>
         
+
+        <app-generic-input
+        formControlName="password"
+        inputName="password"
+        type="password"
+        label="Your Password"
+        placeholder="teste"
+        
+    >
+    </app-generic-input>
     </form>
 </app-login-layout>
