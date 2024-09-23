@@ -2,6 +2,9 @@
     title="Login into your account"
     primaryBtnText="Login Now"
     secondaryBtnText="Signup Now"
+    (submit)="submit()"
+    (navigate)="navigate()"
+    [disabledPrimaryButton]="!loginForm.valid"
 
 >
     <form [formGroup]="loginForm">
@@ -20,7 +23,7 @@
         inputName="password"
         type="password"
         label="Your Password"
-        placeholder="teste"
+       
         
     >
     </app-generic-input>

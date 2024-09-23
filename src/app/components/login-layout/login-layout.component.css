@@ -82,6 +82,11 @@ main {
                     border: 1px solid #7001FD;
                     color: #7001FD;
                 }
+
+                &:disabled{
+                    opacity: 0.8;
+                    cursor: default;
+                }
             }
         }
 
